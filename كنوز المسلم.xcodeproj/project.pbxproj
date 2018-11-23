@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CD03862321A56BCD00808078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03862221A56BCD00808078 /* AppDelegate.swift */; };
-		CD03862521A56BCD00808078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03862421A56BCD00808078 /* ViewController.swift */; };
 		CD03862821A56BCD00808078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD03862621A56BCD00808078 /* Main.storyboard */; };
 		CD03862A21A56BD100808078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD03862921A56BD100808078 /* Assets.xcassets */; };
 		CD03862D21A56BD100808078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD03862B21A56BD100808078 /* LaunchScreen.storyboard */; };
+		CD03863621A5716600808078 /* Home_TVCont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03863521A5716600808078 /* Home_TVCont.swift */; };
+		CD03863921A5735700808078 /* Utlities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03863821A5735700808078 /* Utlities.swift */; };
+		CD03864A21A5828E00808078 /* Home_TVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03864921A5828E00808078 /* Home_TVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD03861F21A56BCD00808078 /* كنوز المسلم.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "كنوز المسلم.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD03862221A56BCD00808078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD03862421A56BCD00808078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD03862721A56BCD00808078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD03862921A56BD100808078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD03862C21A56BD100808078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD03862E21A56BD100808078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD03863521A5716600808078 /* Home_TVCont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_TVCont.swift; sourceTree = "<group>"; };
+		CD03863821A5735700808078 /* Utlities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utlities.swift; sourceTree = "<group>"; };
+		CD03864921A5828E00808078 /* Home_TVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_TVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		CD03862121A56BCD00808078 /* كنوز المسلم */ = {
 			isa = PBXGroup;
 			children = (
+				CD03863721A5734200808078 /* Utlities */,
+				CD03863421A570C000808078 /* Home */,
 				CD03862221A56BCD00808078 /* AppDelegate.swift */,
-				CD03862421A56BCD00808078 /* ViewController.swift */,
 				CD03862621A56BCD00808078 /* Main.storyboard */,
 				CD03862921A56BD100808078 /* Assets.xcassets */,
 				CD03862B21A56BD100808078 /* LaunchScreen.storyboard */,
 				CD03862E21A56BD100808078 /* Info.plist */,
 			);
 			path = "كنوز المسلم";
+			sourceTree = "<group>";
+		};
+		CD03863421A570C000808078 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD03863A21A574A500808078 /* PNG */,
+				CD03863521A5716600808078 /* Home_TVCont.swift */,
+				CD03864921A5828E00808078 /* Home_TVCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD03863721A5734200808078 /* Utlities */ = {
+			isa = PBXGroup;
+			children = (
+				CD03863821A5735700808078 /* Utlities.swift */,
+			);
+			path = Utlities;
+			sourceTree = "<group>";
+		};
+		CD03863A21A574A500808078 /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PNG;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD03862521A56BCD00808078 /* ViewController.swift in Sources */,
+				CD03863921A5735700808078 /* Utlities.swift in Sources */,
+				CD03863621A5716600808078 /* Home_TVCont.swift in Sources */,
+				CD03864A21A5828E00808078 /* Home_TVCell.swift in Sources */,
 				CD03862321A56BCD00808078 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
